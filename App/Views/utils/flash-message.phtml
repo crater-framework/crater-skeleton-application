@@ -1,0 +1,5 @@
+<?php if ($fm = $this->getFlashMessage()): ?>
+    <div class="flash-message <?php echo $fm['type']?>">
+        <p><strong><?php echo ucfirst($fm['type'])?>:</strong> <?php echo $fm['message']?></p>
+    </div>
+<?php endif ?>

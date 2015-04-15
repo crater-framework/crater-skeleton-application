@@ -1,0 +1,24 @@
+<div>
+    <h2>Fetch All with relationship</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>First Name</th><th>Last Name</th><th>Email</th><th>User Info - City</th><th>User Info - Birthday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php foreach ($this->users as $user):?>
+                <tr>
+                    <td><?php echo $user->first_name?></td>
+                    <td><?php echo $user->last_name?></td>
+                    <td><?php echo $user->email?></td>
+                    <td><?php echo $user->UserInfo()->city?></td>
+                    <td><?php echo $user->UserInfo()->birthday?></td>
+                </tr>
+            <?php endforeach?>
+        </tbody>
+    </table>
+    <a  href="/">
+        <button>Home</button>
+    </a>
+</div>

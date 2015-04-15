@@ -1,0 +1,123 @@
+body {
+    font-family:  sans-serif;
+    color: #525252;
+    background-color: #f0f2f1;
+}
+a {
+    text-decoration: none;
+}
+
+a.database {
+    margin-left: 15px;
+}
+
+button {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+button.default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+button:hover {
+    color: #fff;
+    background-color: #31b0d5;
+    border-color: #269abc;
+}
+
+button.default:hover {
+    color: #333;
+    background: #cccccc;
+    border: 1px solid transparent;
+}
+
+.container {
+    padding: 50px;
+    border-bottom: 1px solid #dbdcdb;
+    max-width: 900px;
+    background: #fff;
+    margin: 50px auto;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.language {
+    float: right;
+    margin: -20px -20px 0 0;
+}
+
+
+table {
+    font-family: sans-serif;
+    font-size: 14px;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+table td,
+table th{
+    background: #e8edff;
+    border-top: 1px solid #fff;
+    color: #669;
+    padding: 8px;
+}
+
+.flash-message {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.flash-message p {
+    margin: 0;
+}
+
+.flash-message.info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.flash-message.success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.flash-message.error {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.flash-message.warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}

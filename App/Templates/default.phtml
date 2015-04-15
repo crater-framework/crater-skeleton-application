@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Crater Framework</title>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <link href="/static/css/main.css" rel="stylesheet">
+    </head>
+    <body>
+    <?php $this->partial('utils/flash-message')?>
+        <div class="container">
+            <form class="language" method="get" action="/language">
+                <select name="code" onchange="this.form.submit()">
+                    <option value="" <?php if (!$this->current_language_code): ?> selected <?php endif?>>Default</option>
+                    <option value="en" <?php if ($this->current_language_code == 'en'): ?> selected <?php endif?>>English</option>
+                    <option value="fr" <?php if ($this->current_language_code == 'fr'): ?> selected <?php endif?>>Française</option>
+                </select>
+            </form>
+            <?php $this->content()?>
+        </div>
+    </body>
+</html>

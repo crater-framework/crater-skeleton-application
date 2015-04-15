@@ -1,0 +1,20 @@
+<form method="post" action="/form">
+    First name:<br>
+    <input type="text" name="firstname">
+    <br>
+    Last name:<br>
+    <input type="text" name="lastname">
+    <br>
+    <br>
+    <button type="submit" class="default" name="submit">Submit</button>
+</form>
+
+<?php if (!is_null($this->submit)): ?>
+    <p><b>Post data:</b></p>
+    <p>First Name: <?php echo $this->firstname?></p>
+    <p>Last Name: <?php echo $this->lastname?></p>
+<?php endif ?>
+
+<a  href="/">
+    <button>Home</button>
+</a>

@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ee6047cc78a0d5d9a567a359236dccb3",
+    "hash": "f95b5413401653937ccb5ee6097b0831",
     "packages": [
         {
             "name": "crater-php-framework/crater-php-framework",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/crater-framework/crater-php-framework.git",
-                "reference": "99de70fc671736a4c61ef9407cabd82cb3789c48"
+                "reference": "0b145a51289b42aee8093db15ac34ef3cb04ee43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/crater-framework/crater-php-framework/zipball/99de70fc671736a4c61ef9407cabd82cb3789c48",
-                "reference": "99de70fc671736a4c61ef9407cabd82cb3789c48",
+                "url": "https://api.github.com/repos/crater-framework/crater-php-framework/zipball/0b145a51289b42aee8093db15ac34ef3cb04ee43",
+                "reference": "0b145a51289b42aee8093db15ac34ef3cb04ee43",
                 "shasum": ""
             },
             "require": {
@@ -40,7 +40,7 @@
                 "framework",
                 "mvc"
             ],
-            "time": "2015-04-19 05:16:28"
+            "time": "2015-04-19 06:25:36"
         }
     ],
     "packages-dev": [],

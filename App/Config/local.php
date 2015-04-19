@@ -11,6 +11,6 @@ return array(
     'settings_table' => 'crt_settings',
     'session_prefix' => 'crt_',
     'default_timezone' => 'Europe/Bucharest',
-    'crater_error_handler'  => false,
+    'crater_error_handler'  => true,
     'default_template'  => 'default',
 );

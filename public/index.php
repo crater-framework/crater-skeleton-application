@@ -42,7 +42,7 @@ if (defined('ENVIRONMENT')){
     }
 
 }
-
-include dirname(__DIR__).  '/Core/Crater.php';
+// Autoload files using Composer autoload
+require_once __DIR__ . '/../vendor/autoload.php';
 $app = new \Core\Crater();
 $app->run();

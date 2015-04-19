@@ -2,9 +2,9 @@
     "name": "crater-php-framework/crater-skeleton-application",
     "description": "Sample 'hello world' application using the Crater PHP Framework",
     "license": "MIT",
-
+    "homepage": "http://crater-framework.github.io/",
     "require": {
         "php": ">=5.3.3",
-        "crater-php-framework/crater-php-framework": "v1.0.2"
+        "crater-php-framework/crater-php-framework": "1.0.2.*@dev"
     }
 }

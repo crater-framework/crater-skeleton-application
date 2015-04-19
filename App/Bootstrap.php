@@ -1,15 +1,18 @@
 <?php
 namespace App;
 
-class Bootstrap extends \Core\Bootstrap {
+class Bootstrap extends \Core\Bootstrap
+{
 
-    public function setConsoles() {
+    public function setConsoles()
+    {
         return array(
             array('hello', '\Controllers\Hello@console'),
         );
     }
 
-    public function setRoutes() {
+    public function setRoutes()
+    {
         return array(
             array('any', '/', '\Controllers\Hello@index'),
             array('any', '/second', '\Controllers\Hello@secondPage'),

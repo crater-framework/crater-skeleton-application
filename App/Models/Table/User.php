@@ -8,9 +8,11 @@
  */
 
 namespace Models\Table;
+
 use Core\Orm\TableGateway;
 
-class User extends TableGateway {
+class User extends TableGateway
+{
     protected $_name = 'user';
     protected $_primary = 'user_id';
     protected $_rowClass = 'Models\Row\User';

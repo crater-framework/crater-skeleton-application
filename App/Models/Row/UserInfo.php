@@ -8,8 +8,10 @@
  */
 
 namespace Models\Row;
+
 use Core\Orm\RowGateway;
 
-class UserInfo extends RowGateway {
+class UserInfo extends RowGateway
+{
 
 }

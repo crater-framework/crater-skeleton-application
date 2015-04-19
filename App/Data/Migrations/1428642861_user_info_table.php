@@ -1,4 +1,5 @@
 <?php
+
 /*
  * user_info_table migration file
  *
@@ -6,9 +7,12 @@
  * @version 1.0
  * @date 4/10/2015
  */
-class Migration_1428642861 extends \Core\Migration {
 
-    public function up() {
+class Migration_1428642861 extends \Core\Migration
+{
+
+    public function up()
+    {
         $this->createTable('user_info', array(
             'user_info_id' => array('type' => 'int', 'unsigned' => true, 'primary' => true, 'ai' => true),
             'city' => array('type' => 'varchar', 'length' => 20, 'null' => true),
@@ -16,7 +20,8 @@ class Migration_1428642861 extends \Core\Migration {
         ));
     }
 
-    public function down() {
+    public function down()
+    {
         $this->dropTable('user_info');
     }
 }

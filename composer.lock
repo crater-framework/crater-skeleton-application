@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "ee6047cc78a0d5d9a567a359236dccb3",
+    "packages": [
+        {
+            "name": "crater-php-framework/crater-php-framework",
+            "version": "1.0.2.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/crater-framework/crater-php-framework.git",
+                "reference": "99de70fc671736a4c61ef9407cabd82cb3789c48"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/crater-framework/crater-php-framework/zipball/99de70fc671736a4c61ef9407cabd82cb3789c48",
+                "reference": "99de70fc671736a4c61ef9407cabd82cb3789c48",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.23"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Core\\": "/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Crater PHP Framework Core",
+            "homepage": "http://crater-framework.github.io/",
+            "keywords": [
+                "crater",
+                "framework",
+                "mvc"
+            ],
+            "time": "2015-04-19 05:16:28"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "crater-php-framework/crater-php-framework": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.3"
+    },
+    "platform-dev": []
+}

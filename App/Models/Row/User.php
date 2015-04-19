@@ -8,10 +8,14 @@
  */
 
 namespace Models\Row;
-use Core\Orm\RowGateway;
-class User extends RowGateway {
 
-    public function combinedName() {
+use Core\Orm\RowGateway;
+
+class User extends RowGateway
+{
+
+    public function combinedName()
+    {
         return $this->last_name . ' ' . $this->first_name;
     }
 }

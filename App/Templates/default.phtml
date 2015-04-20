@@ -6,6 +6,11 @@
 </head>
 <body>
 <?php $this->partial('utils/flash-message') ?>
+
+<div class="header">
+    <img src="/static/images/logo-skeleton.png">
+</div>
+
 <div class="container">
     <form class="language" method="get" action="/language">
         <select name="code" onchange="this.form.submit()">

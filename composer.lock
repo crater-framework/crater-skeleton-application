@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/crater-framework/crater-php-framework.git",
-                "reference": "726800bb23095b7f2662362fef38dd7b6a17146e"
+                "reference": "2f3a88920f561b990df9ce7925c6685350c66c98"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/crater-framework/crater-php-framework/zipball/726800bb23095b7f2662362fef38dd7b6a17146e",
-                "reference": "726800bb23095b7f2662362fef38dd7b6a17146e",
+                "url": "https://api.github.com/repos/crater-framework/crater-php-framework/zipball/2f3a88920f561b990df9ce7925c6685350c66c98",
+                "reference": "2f3a88920f561b990df9ce7925c6685350c66c98",
                 "shasum": ""
             },
             "require": {
@@ -40,7 +40,7 @@
                 "framework",
                 "mvc"
             ],
-            "time": "2015-04-21 06:02:55"
+            "time": "2015-04-29 03:45:29"
         }
     ],
     "packages-dev": [],
